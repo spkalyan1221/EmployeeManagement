@@ -1,0 +1,49 @@
+﻿@model EmployeeManagement.Models.AddEmployeeViewModel
+@{
+}
+
+<h2>Add Employee</h2>
+
+<form class="mt-5" method="post" action="Add">
+  <div class="mb-3">
+    <label for="" class="form-label">Name</label>
+    <input type="text" class="form-control " asp-for="Name">
+  </div>
+  
+  <div class="mb-3">
+    <label for="" class="form-label">Department</label>
+    <input type="text" class="form-control " asp-for="Department" >
+  </div> 
+  
+  <div class="mb-3">
+    <label for="" class="form-label">Email</label>
+    <input type="email" class="form-control " asp-for="Email" >
+  </div> 
+
+  <div class="mb-3">
+    <label for="" class="form-label">Sex</label>
+    <input type="text" class="form-control " asp-for="Sex" >
+  </div> 
+
+  <div class="mb-3">
+    <label for="" class="form-label">MartialStatus</label>
+    <input type="text" class="form-control " asp-for="MartialStatus">
+  </div>
+
+  <div class="mb-3">
+    <label for="" class="form-label">Salary</label>
+    <input type="number" class="form-control " asp-for="Salary">
+  </div>
+  
+  <div class="mb-3">
+    <label for="" class="form-label">DateOfBirth</label>
+    <input type="date" class="form-control " asp-for="DateOfBirth">
+  </div> 
+
+  
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
+</form>
+
